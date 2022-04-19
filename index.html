@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/global.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/modal.css">
+    <title>Controle Financeiro</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="modal-area">
+        <div class="modal">
+            <div class="close-modal" onclick="toggleModal()">X</div>
+            <h2 class="modal-title">Adicionar Transação</h2>
+            <form id="transactions-form">
+                <div class="form-input">
+                    <label for="name">Nome</label>
+                    <input type="text" name="name" id="name-input" placeholder="Insira o nome da transação">
+                </div>
+                <div class="form-input">
+                    <label for="value">Valor</label>
+                    <p style="margin-bottom: 10px; font-size: 15px; color: gray;">(ganhos + / gastos -)</p>
+                    <input type="text" name="value" id="amount-input" placeholder="Insira o valor da trasação">
+                </div>
+                <input type="submit" id="add-trasaction" value="Adicionar"  style="margin-top: 30px;">
+            </form>
+        </div>
+    </div>
+    <header>
+        <div class="container">
+            <div class="logo">myFinance<span>$</span></div>
+            <button id="add-trasaction" onclick="toggleModal()">Nova Transação</button>
+        </div>
+    </header>
+    <div class="cards-background">
+        <div class="container">
+            <div class="cards-area">
+                <div class="card">
+                    <div class="card-top">
+                        <p>Ganhos</p>
+                        <img src="./assets/images/income.svg">
+                    </div>
+                    <div class="card-value" id="display-income">
+                        R$0.00
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-top">
+                        <p>Gastos</p>
+                        <img src="./assets/images/expense.svg">
+                    </div>
+                    <div class="card-value" id="display-expense">
+                        R$0.00
+                    </div>
+                </div>
+                <div class="card" id="total-card">
+                    <div class="card-top">
+                        <p style="color: #fff;">Total</p>
+                        <img src="./assets/images/total.svg">
+                    </div>
+                    <div class="card-value" id="display-total" style="color: #fff;">
+                        R$0.00
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section id="app-area">
+        <div class="container">
+            <h2 class="transactions-title">Transações</h2>
+            <ul id="transactions-list">
+            </ul>
+        </div>
+    </section>
+<script src="./assets/js/app.js"></script>
+</body>
+</html>

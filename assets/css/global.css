@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik';
+    list-style: none;
+    
+}
+
+body{
+    background: #f0f2f5;
+}
+
+html{
+    font-size: 10px;
+    overflow-x: hidden;
+}
+
+section{
+    padding-bottom: 50px;
+}
+
+.container{
+    width: 980px;
+    margin: auto;
+}
