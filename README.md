@@ -6,6 +6,26 @@
 	Concluído 🚀
 </h4>
 
+
+## 🎨 Layout
+
+O layout da aplicação:
+
+### Web
+
+<p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
+  <img src="./github/myfinances.gif" width="1000px">
+</p>
+
+### Mobile
+
+<p align="center">
+  <img src="./github/mobilegif.gif" width="300px">
+</p>
+
+---
+<br>
+
 ## 💻 Sobre o projeto
 
 ♻️ myFinances - é uma web app de fianças para auxiliar os usuarios com controle finaceiro.
@@ -24,28 +44,19 @@
 ---
 <br>
 
-## 🎨 Layout
+## 🛠 Tecnologias
 
-O layout da aplicação:
+As seguintes ferramentas foram usadas na construção do projeto:
 
-### Web
-
-<p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
-  <img src="./github/myfinances.gif">
-</p>
-
-### Mobile
-
-<p align="center">
-
-</p>
-
+-   **[HTML5](https://github.com/topics/html5)**
+-   **[CSS3](https://github.com/topics/css)**
+-   **[JAVASCRIPT](https://github.com/topics/javascript)**
 ---
 <br>
 
 ## 🚀 Como executar o projeto
 
-
+-   Você pode testar o projeto aqui: **[myFinances Live](https://github.com/topics/html5)**
 
 ```bash
 
@@ -54,13 +65,4 @@ $ git clone https://github.com/lucassoares01/my-finances
 
 ```
 
----
-
-## 🛠 Tecnologias
-
-As seguintes ferramentas foram usadas na construção do projeto:
-
--   **[HTML5](https://github.com/ReactTraining/react-router/tree/master/packages/react-router-dom)**
--   **[CSS3](https://react-icons.github.io/react-icons/)**
--   **[JAVASCRIPT](https://github.com/axios/axios)**
 ---
