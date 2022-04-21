@@ -28,7 +28,7 @@ O layout da aplicação:
 
 ## 💻 Sobre o projeto
 
-♻️ myFinances - é uma web app de fianças para auxiliar os usuarios com controle finaceiro.
+💸 myFinances - é uma web app de fianças para auxiliar os usuarios com controle finaceiro.
 
 ---
 <br>
@@ -56,7 +56,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 ## 🚀 Como executar o projeto
 
--   Você pode testar o projeto aqui: **[myFinances Live](https://github.com/topics/html5)**
+-   Você pode testar o projeto aqui: **[myFinances Live](https://myfinancesweb.netlify.app)**
 
 ```bash
 
